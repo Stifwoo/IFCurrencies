@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace IFCurrenciesApi.Helper
+﻿namespace IFCurrenciesApi.Helper
 {
     public static class BankIdConsts
     {

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using IFCurrenciesApi.Helper;
 using IFCurrenciesApi.Models.FinanceUaResponse;
 using IFCurrenciesApi.Services;
