@@ -41,34 +41,26 @@
             <StackLayout Orientation="Horizontal" Margin="30, 0, 0, 0">
                 <Label Text="в банку" TextColor="Black" FontSize="18" Margin="10, 5, 19, 5" VerticalOptions="End" />
                 <Picker x:Name="BankPicker" WidthRequest="175" Title="Банк" HeightRequest="35">
-                    <Picker.ItemsSource>
-                        <x:Array Type="{x:Type x:String}">
-                            <x:String>ПриватБанк</x:String>
-                            <x:String>ОщадБанк</x:String>
-                            <x:String>Райффайзен Банк</x:String>
-                        </x:Array>
-                    </Picker.ItemsSource>
-                    <Picker.SelectedIndex>0</Picker.SelectedIndex>
                 </Picker>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" Margin="30, 0, 0, 0">
                 <Label Text="Поточний курс: " TextColor="Black" Margin="10, 5, 5, 0" FontSize="18" VerticalOptions="End" />
-                <Label Text="27.15" TextColor="Black" FontSize="18" Margin="0, 5, 0, 0" VerticalOptions="End"/>
+                <Label x:Name="CurrentRateLabel" TextColor="Black" FontSize="18" Margin="0, 5, 0, 0" VerticalOptions="End"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" Margin="30, 0, 0, 0">
                 <Label Text="Введіть суму" TextColor="Black" FontSize="18" Margin="10, 0, 10, 10" VerticalOptions="End" />
-                <Entry WidthRequest="125" Margin="15, 0, 10, 5" Keyboard="Numeric"/>
+                <Entry x:Name="AmountEntry" WidthRequest="125" Margin="15, 0, 10, 5" Keyboard="Numeric"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" Margin="30, 0, 0, 0">
                 <Label Text="Результат: " TextColor="Black" FontSize="18" Margin="10, 5, 10, 5" VerticalOptions="End" />
-                <Label Text="875.49" TextColor="Black" FontSize="18" Margin="34, 5, 0, 5" VerticalOptions="End"/>
+                <Label x:Name="ResultLabel" TextColor="Black" FontSize="18" Margin="34, 5, 0, 5" VerticalOptions="End"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" Margin="0" HorizontalOptions="CenterAndExpand">
-                <Button Text="Розрахувати" TextColor="White" BackgroundColor="DodgerBlue" WidthRequest="150" HorizontalOptions="CenterAndExpand"/>
+                <Button x:Name="ResultButton" Text="Розрахувати" TextColor="White" BackgroundColor="DodgerBlue" WidthRequest="150" HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
 
 

@@ -1,4 +1,6 @@
-﻿namespace IFCurrenciesApp.Shared.Views
+﻿using Xamarin.Forms;
+
+namespace IFCurrenciesApp.Shared.Views
 {
 	public partial class MainPage
 	{
@@ -12,6 +14,6 @@
 
             Children.Add(new ExchangeRatesPage(_presenter));
 		    Children.Add(new ConverterPage(_presenter));
-		}
+        }
 	}
 }

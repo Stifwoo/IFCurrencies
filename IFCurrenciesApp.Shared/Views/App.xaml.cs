@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System.Globalization;
+using Xamarin.Forms;
 
 namespace IFCurrenciesApp.Shared.Views
 {
@@ -6,7 +7,9 @@ namespace IFCurrenciesApp.Shared.Views
 	{
 		public App ()
 		{
-			InitializeComponent();
+		    CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US", false);
+
+            InitializeComponent();
 
             BanksRatesStore.LoadDataFromFile();
 

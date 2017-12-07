@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
+using System.Threading.Tasks;
 using IFCurrenciesApp.Shared.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -17,16 +19,20 @@ namespace IFCurrenciesApp.Shared.Views
 
 		    _presenter = presenter;
 
-		    DateLabel.Text = $"Останнє оновлення \n{BanksRatesStore.BankExchangeRates[0].Currencies[0].UpdateDate}";
-
-		    _presenter.FindClosestBanks();
-
-		    FillTable(BanksRatesStore.BankExchangeRates, "USD");
+		    DateLabel.Text = $"Останнє оновлення \n{BanksRatesStore.BankExchangeRates[0].Currencies[0].UpdateDate.ToString(new CultureInfo("uk-UA"))}";		       
 
             CurrencyPicker.SelectedIndexChanged += CurrencyPickerOnSelectedIndexChanged;
-		}	    
 
-	    private void FillTable(List<Bank> bankRates, string currency)
+            FillTableWithDistances();
+		}
+
+	    private async void FillTableWithDistances()
+	    {
+	        await _presenter.FindClosestBanks();
+	        FillTable(BanksRatesStore.BankExchangeRates, "USD");
+        }
+
+        public void FillTable(List<Bank> bankRates, string currency)
 	    {	        
             for(var i = 0; i < bankRates.Count; i++)
             {
@@ -54,8 +60,8 @@ namespace IFCurrenciesApp.Shared.Views
                 var boxView = new BoxView() { BackgroundColor = Color.White };
 
                 var bankLabel = new Label() { Text = bankRates[i].Name, TextColor = Color.Black, FontSize = 16, Margin = new Thickness(5, 0, 0, 0), BackgroundColor = Color.White, VerticalOptions = LayoutOptions.Center };
-                var buyLabel = new Label() { Text = buyRate, FontSize = 16, TextColor = Color.Black, VerticalOptions = LayoutOptions.Center, HorizontalOptions = LayoutOptions.Center };
-                var sellLabel = new Label() { Text = sellRate, FontSize = 16, TextColor = Color.Black, VerticalOptions = LayoutOptions.Center, HorizontalOptions = LayoutOptions.Center };
+                var buyLabel = new Label() { Text = sellRate, FontSize = 16, TextColor = Color.Black, VerticalOptions = LayoutOptions.Center, HorizontalOptions = LayoutOptions.Center };
+                var sellLabel = new Label() { Text = buyRate, FontSize = 16, TextColor = Color.Black, VerticalOptions = LayoutOptions.Center, HorizontalOptions = LayoutOptions.Center };
                 var distanceLabel = new Label() { Text = $"{_presenter.ClosestBankPositions[i].Distance} м", FontSize = 16, TextColor = Color.Black, VerticalOptions = LayoutOptions.Center, HorizontalOptions = LayoutOptions.Center };
                 var pinImage = new Image() { Source = "pin64.png", ClassId = $"{bankRates[i].OldId}", HeightRequest = 30, WidthRequest = 30, VerticalOptions = LayoutOptions.Center, HorizontalOptions = LayoutOptions.Center };
 
