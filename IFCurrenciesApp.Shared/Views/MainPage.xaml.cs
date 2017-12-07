@@ -2,9 +2,16 @@
 {
 	public partial class MainPage
 	{
-		public MainPage()
+	    private readonly Presenter _presenter;
+
+		public MainPage(Presenter presenter)
 		{
-			InitializeComponent();
+		    InitializeComponent();
+
+            _presenter = presenter;
+
+            Children.Add(new ExchangeRatesPage(_presenter));
+		    Children.Add(new ConverterPage(_presenter));
 		}
 	}
 }

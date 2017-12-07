@@ -1,0 +1,757 @@
+﻿[
+  {
+    "Name": "ПриватБанк",
+    "OldId": 131,
+    "Addresses": [
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.90571817,
+          "Longitude": 24.76236016
+        },
+        "Id": 1
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.91578221,
+          "Longitude": 24.73503247
+        },
+        "Id": 2
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92421584,
+          "Longitude": 24.73567218
+        },
+        "Id": 3
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.9341211,
+          "Longitude": 24.74231735
+        },
+        "Id": 4
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.93990722,
+          "Longitude": 24.73763958
+        },
+        "Id": 5
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.94193149,
+          "Longitude": 24.73898739
+        },
+        "Id": 6
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.93329471,
+          "Longitude": 24.72926237
+        },
+        "Id": 7
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92586362,
+          "Longitude": 24.72139277
+        },
+        "Id": 8
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.91834506,
+          "Longitude": 24.72260848
+        },
+        "Id": 9
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.9078408,
+          "Longitude": 24.71161142
+        },
+        "Id": 10
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.91513179,
+          "Longitude": 24.70336094
+        },
+        "Id": 11
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.90763629,
+          "Longitude": 24.68268648
+        },
+        "Id": 12
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.91937615,
+          "Longitude": 24.70881924
+        },
+        "Id": 13
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.9200371,
+          "Longitude": 24.70704965
+        },
+        "Id": 14
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92017457,
+          "Longitude": 24.70939659
+        },
+        "Id": 15
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92171101,
+          "Longitude": 24.71049864
+        },
+        "Id": 16
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.9250133,
+          "Longitude": 24.71190579
+        },
+        "Id": 17
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92606452,
+          "Longitude": 24.70994912
+        },
+        "Id": 18
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92736332,
+          "Longitude": 24.70003836
+        },
+        "Id": 19
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92892993,
+          "Longitude": 24.70532265
+        },
+        "Id": 20
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.93387089,
+          "Longitude": 24.70626913
+        },
+        "Id": 21
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.94305195,
+          "Longitude": 24.69948247
+        },
+        "Id": 22
+      }
+    ],
+    "Currencies": [
+      {
+        "UpdateDate": "2017-12-07T11:31:53",
+        "Usd": {
+          "BuyRate": 27.25,
+          "SellRate": 27.05
+        },
+        "Eur": {
+          "BuyRate": 32.35,
+          "SellRate": 31.9
+        },
+        "Rub": {
+          "BuyRate": 0.47,
+          "SellRate": 0.45
+        },
+        "Id": 35
+      }
+    ],
+    "Id": 3
+  },
+  {
+    "Name": "ОщадБанк",
+    "OldId": 199,
+    "Addresses": [
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.91414291,
+          "Longitude": 24.73698512
+        },
+        "Id": 23
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.91973923,
+          "Longitude": 24.73958753
+        },
+        "Id": 24
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92912378,
+          "Longitude": 24.7355897
+        },
+        "Id": 25
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.93828765,
+          "Longitude": 24.74113014
+        },
+        "Id": 26
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.90656617,
+          "Longitude": 24.7154738
+        },
+        "Id": 27
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.90871256,
+          "Longitude": 24.7109925
+        },
+        "Id": 28
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.91700725,
+          "Longitude": 24.71951321
+        },
+        "Id": 29
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92728225,
+          "Longitude": 24.72102866
+        },
+        "Id": 30
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92031469,
+          "Longitude": 24.71319459
+        },
+        "Id": 31
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92180839,
+          "Longitude": 24.71402608
+        },
+        "Id": 32
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.9270232,
+          "Longitude": 24.71442036
+        },
+        "Id": 33
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92782062,
+          "Longitude": 24.71172877
+        },
+        "Id": 34
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.90592268,
+          "Longitude": 24.68289033
+        },
+        "Id": 35
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.91088178,
+          "Longitude": 24.69946101
+        },
+        "Id": 36
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92025917,
+          "Longitude": 24.70664665
+        },
+        "Id": 37
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92094126,
+          "Longitude": 24.70568374
+        },
+        "Id": 38
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92498158,
+          "Longitude": 24.6984411
+        },
+        "Id": 39
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92877662,
+          "Longitude": 24.70609948
+        },
+        "Id": 40
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.9319802,
+          "Longitude": 24.7072354
+        },
+        "Id": 41
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.94416357,
+          "Longitude": 24.70267162
+        },
+        "Id": 42
+      }
+    ],
+    "Currencies": [
+      {
+        "UpdateDate": "2017-12-07T11:31:53",
+        "Usd": {
+          "BuyRate": 27.22,
+          "SellRate": 26.9
+        },
+        "Eur": {
+          "BuyRate": 32.2,
+          "SellRate": 31.0
+        },
+        "Rub": {
+          "BuyRate": 0.463,
+          "SellRate": 0.33
+        },
+        "Id": 36
+      }
+    ],
+    "Id": 4
+  },
+  {
+    "Name": "Райффайзен Банк",
+    "OldId": 103,
+    "Addresses": [
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.89851044,
+          "Longitude": 24.7033824
+        },
+        "Id": 43
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92134134,
+          "Longitude": 24.70534511
+        },
+        "Id": 44
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.9198679,
+          "Longitude": 24.71118495
+        },
+        "Id": 45
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92058964,
+          "Longitude": 24.71322678
+        },
+        "Id": 46
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92577286,
+          "Longitude": 24.71611015
+        },
+        "Id": 47
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.94360864,
+          "Longitude": 24.69961591
+        },
+        "Id": 48
+      }
+    ],
+    "Currencies": [
+      {
+        "UpdateDate": "2017-12-07T11:31:53",
+        "Usd": {
+          "BuyRate": 27.3,
+          "SellRate": 26.95
+        },
+        "Eur": {
+          "BuyRate": 32.2,
+          "SellRate": 31.7
+        },
+        "Rub": {
+          "BuyRate": 0.462,
+          "SellRate": 0.453
+        },
+        "Id": 37
+      }
+    ],
+    "Id": 5
+  },
+  {
+    "Name": "Укрсоцбанк",
+    "OldId": 192,
+    "Addresses": [
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.91778103,
+          "Longitude": 24.72104475
+        },
+        "Id": 49
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.93715872,
+          "Longitude": 24.74159583
+        },
+        "Id": 50
+      }
+    ],
+    "Currencies": [
+      {
+        "UpdateDate": "2017-12-07T11:31:53",
+        "Usd": {
+          "BuyRate": 27.25,
+          "SellRate": 27.1
+        },
+        "Eur": {
+          "BuyRate": 32.45,
+          "SellRate": 31.95
+        },
+        "Rub": {
+          "BuyRate": 0.47,
+          "SellRate": 0.445
+        },
+        "Id": 38
+      }
+    ],
+    "Id": 6
+  },
+  {
+    "Name": "Ідея Банк",
+    "OldId": 282,
+    "Addresses": [
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.90534617,
+          "Longitude": 24.71268967
+        },
+        "Id": 51
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92184981,
+          "Longitude": 24.70843367
+        },
+        "Id": 52
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92580899,
+          "Longitude": 24.71361369
+        },
+        "Id": 53
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92667515,
+          "Longitude": 24.70934428
+        },
+        "Id": 54
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.936683,
+          "Longitude": 24.7433956
+        },
+        "Id": 55
+      }
+    ],
+    "Currencies": [
+      {
+        "UpdateDate": "2017-12-07T11:31:53",
+        "Usd": {
+          "BuyRate": 27.25,
+          "SellRate": 27.0
+        },
+        "Eur": {
+          "BuyRate": 32.3,
+          "SellRate": 31.7
+        },
+        "Rub": {
+          "BuyRate": 0.465,
+          "SellRate": 0.41
+        },
+        "Id": 39
+      }
+    ],
+    "Id": 7
+  },
+  {
+    "Name": "ПУМБ",
+    "OldId": 274,
+    "Addresses": [
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.91857243,
+          "Longitude": 24.71488103
+        },
+        "Id": 56
+      }
+    ],
+    "Currencies": [
+      {
+        "UpdateDate": "2017-12-07T11:31:53",
+        "Usd": {
+          "BuyRate": 27.3,
+          "SellRate": 27.0
+        },
+        "Eur": {
+          "BuyRate": 32.3,
+          "SellRate": 31.8
+        },
+        "Rub": {
+          "BuyRate": 0.46,
+          "SellRate": 0.45
+        },
+        "Id": 40
+      }
+    ],
+    "Id": 8
+  },
+  {
+    "Name": "Альфа-Банк",
+    "OldId": 115,
+    "Addresses": [
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.91918051,
+          "Longitude": 24.71734866
+        },
+        "Id": 57
+      },
+      {
+        "City": null,
+        "Street": null,
+        "Building": null,
+        "Location": {
+          "Latitude": 48.92263717,
+          "Longitude": 24.71119065
+        },
+        "Id": 58
+      }
+    ],
+    "Currencies": [
+      {
+        "UpdateDate": "2017-12-07T11:31:53",
+        "Usd": {
+          "BuyRate": 27.25,
+          "SellRate": 27.1
+        },
+        "Eur": {
+          "BuyRate": 32.45,
+          "SellRate": 31.95
+        },
+        "Rub": {
+          "BuyRate": 0.47,
+          "SellRate": 0.445
+        },
+        "Id": 41
+      }
+    ],
+    "Id": 9
+  }
+]

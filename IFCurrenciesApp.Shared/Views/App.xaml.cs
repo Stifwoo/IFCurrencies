@@ -1,4 +1,6 @@
-﻿namespace IFCurrenciesApp.Shared.Views
+﻿using Xamarin.Forms;
+
+namespace IFCurrenciesApp.Shared.Views
 {
     public partial class App
 	{
@@ -6,7 +8,11 @@
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+            BanksRatesStore.LoadDataFromFile();
+
+            var presenter = new Presenter();
+
+			MainPage = new NavigationPage(new MainPage(presenter));
 		}
 
 		protected override void OnStart ()

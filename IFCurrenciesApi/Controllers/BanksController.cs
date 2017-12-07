@@ -45,7 +45,7 @@ namespace IFCurrenciesApi.Controllers
         [Route("api/banks/updaterates")]
         public IHttpActionResult UpdateRates()
         {
-            var externalService = new FinanceUaService();
+            var externalService = new ApiService();
 
             var manager = new FinanceManager(_bankService, externalService);
 

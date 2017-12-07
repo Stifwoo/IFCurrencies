@@ -21,7 +21,7 @@ namespace IFCurrenciesApp.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new Shared.Views.App());
+            LoadApplication(new IFCurrenciesApp.App());
         }
     }
 }

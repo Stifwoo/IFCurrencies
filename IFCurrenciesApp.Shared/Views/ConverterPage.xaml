@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IFCurrenciesApp.Shared.Views.ConverterPage"
+             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             Title="Конвертер"
+             BackgroundImage="bg.jpg">
+
+    <ContentPage.Content>
+        <StackLayout Margin="0, 10, 0, 0">
+
+            <microcharts:ChartView x:Name="ChartView" VerticalOptions="FillAndExpand" BackgroundColor="Transparent" Margin="0, 10, 0, 0"/>
+
+            <StackLayout Orientation="Horizontal" Margin="30, 0, 0, 0">
+                <Label Text="Я хочу" TextColor="Black" FontSize="18" Margin="10, 5, 19, 5" VerticalOptions="End" />
+                <Picker x:Name="ActionPicker" Title="Виберіть дію" HeightRequest="35">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Купити</x:String>
+                            <x:String>Продати</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                    <Picker.SelectedIndex>0</Picker.SelectedIndex>
+                </Picker>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="30, 0, 0, 0">
+                <Label Text="валюту" TextColor="Black" FontSize="18" Margin="10, 5, 19, 5" VerticalOptions="End" />
+                <Picker x:Name="CurrencyPicker" Title="Валюта" HeightRequest="35">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>USD</x:String>
+                            <x:String>EUR</x:String>
+                            <x:String>RUB</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                    <Picker.SelectedIndex>0</Picker.SelectedIndex>
+                </Picker>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="30, 0, 0, 0">
+                <Label Text="в банку" TextColor="Black" FontSize="18" Margin="10, 5, 19, 5" VerticalOptions="End" />
+                <Picker x:Name="BankPicker" WidthRequest="175" Title="Банк" HeightRequest="35">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>ПриватБанк</x:String>
+                            <x:String>ОщадБанк</x:String>
+                            <x:String>Райффайзен Банк</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                    <Picker.SelectedIndex>0</Picker.SelectedIndex>
+                </Picker>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="30, 0, 0, 0">
+                <Label Text="Поточний курс: " TextColor="Black" Margin="10, 5, 5, 0" FontSize="18" VerticalOptions="End" />
+                <Label Text="27.15" TextColor="Black" FontSize="18" Margin="0, 5, 0, 0" VerticalOptions="End"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="30, 0, 0, 0">
+                <Label Text="Введіть суму" TextColor="Black" FontSize="18" Margin="10, 0, 10, 10" VerticalOptions="End" />
+                <Entry WidthRequest="125" Margin="15, 0, 10, 5" Keyboard="Numeric"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="30, 0, 0, 0">
+                <Label Text="Результат: " TextColor="Black" FontSize="18" Margin="10, 5, 10, 5" VerticalOptions="End" />
+                <Label Text="875.49" TextColor="Black" FontSize="18" Margin="34, 5, 0, 5" VerticalOptions="End"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="0" HorizontalOptions="CenterAndExpand">
+                <Button Text="Розрахувати" TextColor="White" BackgroundColor="DodgerBlue" WidthRequest="150" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
