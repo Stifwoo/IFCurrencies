@@ -15,7 +15,7 @@ namespace IFCurrenciesApp.Shared.Views
 
             var presenter = new Presenter();
 
-			MainPage = new NavigationPage(new MainPage(presenter));
+			MainPage = new NavigationPage(new MainPage(presenter));            
 		}
 
 		protected override void OnStart ()

@@ -1,14 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:IFCurrenciesApp.Shared"
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              x:Class="IFCurrenciesApp.Shared.Views.ClosestBankMapPage"
              Title="Найближче відділення">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="Fill" HorizontalOptions="Fill">
-            <maps:Map x:Name="ClosestBankMap"
+        <StackLayout x:Name="MapStack" VerticalOptions="Fill" HorizontalOptions="Fill">
+            <!--<maps:Map x:Name="ClosestBankMap"
                       IsShowingUser="true"
-            />
+            />-->
+
+            <local:CustomMap x:Name="ClosestBankMap"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

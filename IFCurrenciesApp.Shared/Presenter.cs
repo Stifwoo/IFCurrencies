@@ -76,6 +76,7 @@ namespace IFCurrenciesApp.Shared
             SelectedBankPositions.Name = bank.Name;
             SelectedBankPositions.OldId = bank.OldId.ToString();
 
+            SelectedBankPositions.Locations.Clear();
             foreach (var address in bank.Addresses)
             {
                 SelectedBankPositions.Locations.Add(address.Location);
@@ -91,21 +92,21 @@ namespace IFCurrenciesApp.Shared
                 switch (currency)
                 {
                     case "USD":
-                        entries[0] = InitializeEntry(25.50, bank.Currencies[0].UpdateDate, 21, SKColors.Black);
-                        entries[1] = InitializeEntry(26.15, bank.Currencies[0].UpdateDate, 14, SKColors.DarkOrange);
-                        entries[2] = InitializeEntry(26.00, bank.Currencies[0].UpdateDate, 7, SKColors.DarkOrange);
+                        entries[0] = InitializeEntry(26.50, bank.Currencies[0].UpdateDate, 21, SKColors.Black);
+                        entries[1] = InitializeEntry(27.15, bank.Currencies[0].UpdateDate, 14, SKColors.DarkOrange);
+                        entries[2] = InitializeEntry(27.00, bank.Currencies[0].UpdateDate, 7, SKColors.DarkOrange);
                         entries[3] = InitializeEntry(bank.Currencies[0].Usd.BuyRate, bank.Currencies[0].UpdateDate, 0, SKColors.Red);
                         break;
                     case "EUR":
-                        entries[0] = InitializeEntry(29.80, bank.Currencies[0].UpdateDate, 21, SKColors.Black);
-                        entries[1] = InitializeEntry(29.45, bank.Currencies[0].UpdateDate, 14, SKColors.DarkOrange);
-                        entries[2] = InitializeEntry(31.00, bank.Currencies[0].UpdateDate, 7, SKColors.DarkOrange);
+                        entries[0] = InitializeEntry(30.80, bank.Currencies[0].UpdateDate, 21, SKColors.Black);
+                        entries[1] = InitializeEntry(30.45, bank.Currencies[0].UpdateDate, 14, SKColors.DarkOrange);
+                        entries[2] = InitializeEntry(32.00, bank.Currencies[0].UpdateDate, 7, SKColors.DarkOrange);
                         entries[3] = InitializeEntry(bank.Currencies[0].Eur.BuyRate, bank.Currencies[0].UpdateDate, 0, SKColors.Red);
                         break;
                     case "RUB":
-                        entries[0] = InitializeEntry(0.41, bank.Currencies[0].UpdateDate, 21, SKColors.Black);
-                        entries[1] = InitializeEntry(0.43, bank.Currencies[0].UpdateDate, 14, SKColors.DarkOrange);
-                        entries[2] = InitializeEntry(0.43, bank.Currencies[0].UpdateDate, 7, SKColors.DarkOrange);
+                        entries[0] = InitializeEntry(0.44, bank.Currencies[0].UpdateDate, 21, SKColors.Black);
+                        entries[1] = InitializeEntry(0.46, bank.Currencies[0].UpdateDate, 14, SKColors.DarkOrange);
+                        entries[2] = InitializeEntry(0.46, bank.Currencies[0].UpdateDate, 7, SKColors.DarkOrange);
                         entries[3] = InitializeEntry(bank.Currencies[0].Rub.BuyRate, bank.Currencies[0].UpdateDate, 0, SKColors.Red);
                         break;
                 }
@@ -115,21 +116,21 @@ namespace IFCurrenciesApp.Shared
                 switch (currency)
                 {
                     case "USD":
-                        entries[0] = InitializeEntry(26.50, bank.Currencies[0].UpdateDate, 21, SKColors.Black);
-                        entries[1] = InitializeEntry(27.15, bank.Currencies[0].UpdateDate, 14, SKColors.DarkOrange);
-                        entries[2] = InitializeEntry(27.00, bank.Currencies[0].UpdateDate, 7, SKColors.DarkOrange);
+                        entries[0] = InitializeEntry(25.50, bank.Currencies[0].UpdateDate, 21, SKColors.Black);
+                        entries[1] = InitializeEntry(26.15, bank.Currencies[0].UpdateDate, 14, SKColors.DarkOrange);
+                        entries[2] = InitializeEntry(26.00, bank.Currencies[0].UpdateDate, 7, SKColors.DarkOrange);
                         entries[3] = InitializeEntry(bank.Currencies[0].Usd.SellRate, bank.Currencies[0].UpdateDate, 0, SKColors.Red);
                         break;
                     case "EUR":
-                        entries[0] = InitializeEntry(30.80, bank.Currencies[0].UpdateDate, 21, SKColors.Black);
-                        entries[1] = InitializeEntry(30.45, bank.Currencies[0].UpdateDate, 14, SKColors.DarkOrange);
-                        entries[2] = InitializeEntry(32.00, bank.Currencies[0].UpdateDate, 7, SKColors.DarkOrange);
+                        entries[0] = InitializeEntry(29.80, bank.Currencies[0].UpdateDate, 21, SKColors.Black);
+                        entries[1] = InitializeEntry(29.45, bank.Currencies[0].UpdateDate, 14, SKColors.DarkOrange);
+                        entries[2] = InitializeEntry(31.00, bank.Currencies[0].UpdateDate, 7, SKColors.DarkOrange);
                         entries[3] = InitializeEntry(bank.Currencies[0].Eur.SellRate, bank.Currencies[0].UpdateDate, 0, SKColors.Red);
                         break;
                     case "RUB":
-                        entries[0] = InitializeEntry(0.44, bank.Currencies[0].UpdateDate, 21, SKColors.Black);
-                        entries[1] = InitializeEntry(0.46, bank.Currencies[0].UpdateDate, 14, SKColors.DarkOrange);
-                        entries[2] = InitializeEntry(0.46, bank.Currencies[0].UpdateDate, 7, SKColors.DarkOrange);
+                        entries[0] = InitializeEntry(0.41, bank.Currencies[0].UpdateDate, 21, SKColors.Black);
+                        entries[1] = InitializeEntry(0.43, bank.Currencies[0].UpdateDate, 14, SKColors.DarkOrange);
+                        entries[2] = InitializeEntry(0.43, bank.Currencies[0].UpdateDate, 7, SKColors.DarkOrange);
                         entries[3] = InitializeEntry(bank.Currencies[0].Rub.SellRate, bank.Currencies[0].UpdateDate, 0, SKColors.Red);
                         break;
                 }
